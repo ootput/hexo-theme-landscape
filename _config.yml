@@ -1,7 +1,8 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
+  Author: /author
+  Desktop: /desktop
 rss: /atom.xml
 
 # Content
@@ -12,15 +13,15 @@ fancybox: true
 sidebar: right
 widgets:
 - category
-- tag
+- recent_posts
 - tagcloud
 - archive
-- recent_posts
+  #- tag
 
 # Miscellaneous
-google_analytics:
-favicon: /favicon.png
-twitter:
-google_plus:
+google_analytics: UA-57044545-1
+favicon: /images/favicon.png
+twitter: 513256254
+google_plus: 110511550415133053098
 fb_admins:
 fb_app_id:
