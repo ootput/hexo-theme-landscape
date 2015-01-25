@@ -295,6 +295,14 @@ $article-share-link
     background: color-pinterest
     text-shadow: 0 1px darken(color-pinterest, 20%)
 
+.article-share-reddit
+  @extend $article-share-link
+  &:before
+    content: "\f1a1"
+  &:hover
+    background: color-reddit
+    text-shadow: 0 1px darken(color-reddit, 20%)
+
 .article-share-google
   @extend $article-share-link
   &:before
